@@ -1,0 +1,14 @@
+---
+dependency:
+  name: galaxy
+driver:
+  name: vagrant
+platforms:
+  - name: MyVM
+    box: generic/ubuntu1804
+    memory: 2048
+
+provisioner:
+  name: ansible
+verifier:
+  name: ansible
